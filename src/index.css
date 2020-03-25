@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.shop-row:hover {
+  background: grey;
+  cursor: pointer;
+}
+
+.shop-list-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
+
+.home-page-container div {
+  margin-bottom: 10px;
+}
+
+.shop-detail-list {
+  text-align: left;
+}
