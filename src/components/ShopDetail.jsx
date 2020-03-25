@@ -14,7 +14,7 @@ const ShopDetail= ({ shop, getShop, isLoading }) => {
   return (
     !isLoading && shop && <div className="card blue-grey darken-1 shop-list-container">
       <div className="card-content white-text">
-        <span className="card-title">Shop detail</span>
+        <span className="card-title page-title">Shop detail</span>
         <ul className="shop-detail-list">
           <li>Shop name: {shop.name}</li>
           <li>Shop address: {shop.address_line1}</li>

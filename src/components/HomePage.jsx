@@ -30,7 +30,7 @@ const HomePage = ({ countryList, cityList, getCountries, getCities, isLoading, s
 
   return (
     !isLoading && <div>
-      <h2>Store locator</h2>
+      <h2 className="page-title">Store locator</h2>
       <div className="home-page-container">
         <div>
           <FormControl style={formControlStyle}>

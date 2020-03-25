@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import HomePage from "./components/HomePage"
 import ShopList from "./components/ShopList"
 import ShopDetail from "./components/ShopDetail"

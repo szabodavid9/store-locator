@@ -23,7 +23,7 @@ const ShopList = ({ shopList, getCityShops, getCountryShops }) => {
 
   return (
     <div className="shop-list-container">
-      <h1>Shop List</h1>
+      <h1 className="page-title">Shop List</h1>
       <Table>
         <TableHead>
           <TableRow>
